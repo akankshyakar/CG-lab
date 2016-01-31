@@ -16,7 +16,21 @@ int main()
  blineup(100,300,180,250);//rightleg
  blinedown(20,350,100,300);//left leg
  blineup(100,200,20,150);//left hand
- blinedown(100,200,180,150);
+ blinedown(100,200,180,150);//right hand
+ //stickman2
+ mpcircle(300,100,50);
+ blineup(300,150,300,300);//body
+ blineup(300,300,380,250);//rightleg
+ blinedown(220,350,300,300);//left leg
+ blineup(300,200,220,200);//left hand
+ blineup(300,200,380,200);//right hand
+//stickman3
+ mpcircle(500,100,50);
+ blineup(500,150,500,300);//body
+ blineup(500,300,580,250);//rightleg
+ blinedown(420,350,500,300);//left leg
+ blineup(500,200,420,150);//left hand
+ blinedown(500,200,580,150);//right hand
  getch();
  return 0;
 }
